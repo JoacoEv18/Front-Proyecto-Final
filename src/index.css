@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .centrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  margin-top: 50px;
+  width: 100%;
+} */
+
+.Item-centrado{
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.Item-centrado img{
+  min-width: 200px;
+  max-width: 500px;
+
+}
+
+.perfil{
+  background-color: green;
+  border-radius: 10%;
+  width: 100px;
+}
+
+.perfil-name{
+  margin-left: auto;
+  color: white;
+  font-size: 18px;
+}
+
+.barra{
+  height: 80px;
+}
+
+.formu{
+  padding: 30px 50px;
+  background-color: rgba(63, 63, 63, 0.418);
+}
+
+.container-tarjetas{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows:minmax(200px, auto);
+  gap: 20px; /* espacio entre las tarjetas */
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+/* auto-fill calcula el ancho del grid y crea columnas ssi es neceeesario
+auto-fit ensancha loss elementos si es necesario*/
+
+/* auto flow: dense; para que llene los espaacios vacios*/
