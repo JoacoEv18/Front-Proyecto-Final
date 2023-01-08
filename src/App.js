@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<NavBar/>}>
             <Route index element={<Home />} />
             <Route path='*' element={<Error />} />
-            <Route path='/colaboradores' element={<Nosotros />} />
+            <Route path='/clientes' element={<Nosotros />} />
             <Route path='/perfil' element={<Perfil />} />
         </Route>
       </Routes>

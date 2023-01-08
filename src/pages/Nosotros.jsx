@@ -22,7 +22,7 @@ const Nosotros = () => {
     return (
         <div>
             <h1 className='text-center mt-2'>
-                Nuestros Colaboradores
+                Nuestros Clientes
             </h1>
             <Table striped bordered hover variant="dark">
                 <thead>

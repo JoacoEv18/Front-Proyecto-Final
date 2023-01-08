@@ -33,7 +33,7 @@ const Perfil = () => {
     return (
         <div className='formu'>
             <h1 className='text-center'>
-                Registrate como Colaborador
+                Registrate como Cliente de Mercado Free
             </h1>
             {Object.keys(inputs).map((key, index)=>(
                 <Form.Group className="mb-3" key={index}>
